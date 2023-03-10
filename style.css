@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212121;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.head {
+    text-align: center;
+    margin: 30px  0 10px 0;
+}
+
+.head p{
+    text-transform:uppercase;
+    font-size: 21px;
+    line-height: 35px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #111;
+    color: #ffff;
+    transition:all .5s ;
+}
+input:focus{
+    transform: scale(1.01);
+    background-color: #000;
+}
+.price input {
+    width: 20%;
+}
+
+small{
+    background-color: #d05050b2;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
+
+#total::before{
+    content: "Total : ";
+}
+
+button{
+    width: 100%;
+    padding: 7px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    
+    margin: 5px 0;
+    background-color: #174917;
+    color: #fff;
+    transition: all .5s;
+}
+
+#submit:hover{
+    background-color: #429542;
+    letter-spacing: 1px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 47%;
+    margin: 5px 0;
+    background-color: #174917;
+}
+
+.btn:hover{
+  transform: scale(1.05);
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.tBtn{
+    padding: 6px 0px;
+}
+
+#deleteBtn{
+    background-color: #a23939;
+}
+
+th,td{
+    padding: 5px;
+}
+
